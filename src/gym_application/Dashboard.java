@@ -37,7 +37,7 @@ public class Dashboard extends javax.swing.JFrame {
     private int data = 0;
 
     public Dashboard() {
-
+	// db connection
         initComponents();
         conn = DbConnect.DbConnect();
         try {
