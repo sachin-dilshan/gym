@@ -48,8 +48,6 @@ public class Dashboard extends javax.swing.JFrame {
                 String old_no = rs.getString("CUSTOMER_CODE");
                 String hit_no = old_no.substring(0, 4);
                 Integer new_no = Integer.parseInt(old_no.substring(2)) + 1;
-                System.out.print(new_no + 1);
-                System.out.print(hit_no);
                 lbl_userCode.setText(hit_no + new_no);
             } else {
                 lbl_userCode.setText("GC001");
