@@ -16,6 +16,7 @@ public class Gym_Application {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+	//runner
         Login login = new Login();
         login.setVisible(true);
     }
