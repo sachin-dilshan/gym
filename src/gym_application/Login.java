@@ -37,7 +37,7 @@ public class Login extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("XTREME Push Up");
 
-        bg.setBackground(new java.awt.Color(191, 103, 249));
+        //bg.setBackground(new java.awt.Color(191, 103, 249));
 
         lbl_login.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         lbl_login.setForeground(new java.awt.Color(255, 255, 255));
